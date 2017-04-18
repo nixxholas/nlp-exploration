@@ -1,4 +1,4 @@
-## Basics of Natural Language Processing (NLP) for Instant messaging conversations
+## Topic 1: Basics of Natural Language Processing (NLP) for Instant messaging conversations
 
 **Before we begin, please understand that the information below is redundant in relation to the rest of the other topics and is just a simple explanation towards NLP. Reading this page is recommended to help you in understanding how NLP exactly works.** (Skip this if you do know how it works.)
 
@@ -58,7 +58,11 @@ I'll be quoting from [tutorialspoint](https://www.tutorialspoint.com/artificial_
 
 For further understanding of each step, here's the [link](https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_natural_language_processing.htm) to it.
 
-**So.. How do we implement NLP in Instant Messaging contexts?**
+**So.. How do we implement NLP in Instant Messaging contexts? Let's learn what the solution solves first.**
+
+### [Next Chapter](https://github.com/nixxholas/nlp-exploration/blob/master/2_TagProblem.md)
+
+##### [Back to main](https://github.com/nixxholas/nlp-exploration/)
 
 ###### References
 Steps in NLP. (2017). [image] Available at: https://www.tutorialspoint.com/artificial_intelligence/images/steps_in_nlp.jpg [Accessed 18 Apr. 2017].

@@ -13,9 +13,9 @@ examples of the tagging problem first. (In the english language first of course.
 >[Tag your sentences here!](http://parts-of-speech.info)
 
 From the tags given, we can tell that natural is an adjective (JJ is a tagging
-for a noun with the Part-Of-Speech tagger by Stanford U.) in this sentence while
-language is a noun (\NN). Each word is given a tag. However, the problem with POS
- is that every word may have more than a tag where it can be a verb or also a noun.
+for a noun with the Part-Of-Speech tagger by Stanford U.) in this sentence while the word
+"language" is a noun (\NN). Each word is given a tag. However, the problem with POS
+ is that every word **may have more than a tag** where it can be a verb or also a noun.
 
 #### Problem 2, Named Entity Recognition (NER)
 Because NER does not have a fixed tagging example that can be reused commonly,

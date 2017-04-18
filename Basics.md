@@ -1,4 +1,4 @@
-## Basics of Natural Language Processing (NLP) for conversations
+## Basics of Natural Language Processing (NLP) for Instant messaging conversations
 
 **Before we begin, please understand that the information below is redundant in relation to the rest of the other topics and is just a simple explanation towards NLP. Reading this page is recommended to help you in understanding how NLP exactly works.** (Skip this if you do know how it works.)
 

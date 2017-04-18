@@ -10,7 +10,7 @@
  - Mapping the given input in natural language into useful representations.
  - Analyzing different aspects of the language.
 
-** In short, NLU is the way a language is supposed to be understood in.**
+**In short, NLU is the way a language is supposed to be understood in.**
 
 ##### Natural Language Generation Involves:
 1. **Text Planning** - Involves retrieving relevant content from a set of data.

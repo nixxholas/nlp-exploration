@@ -37,3 +37,5 @@ Instead of expecting an input (in Conditional models, x has to be given). So thu
 
 So that's all for the sketchy formula that we need to know. Quite hard to digest?
 I'll do a better explanation in the next chapter as we go through the Hidden Markov Model which is an iteration of the Generative Models.
+
+##### [Back to main](https://github.com/nixxholas/nlp-exploration/)

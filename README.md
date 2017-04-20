@@ -9,4 +9,5 @@
 - [Topic 4: Hidden Markov Model (HMM) Basics](https://github.com/nixxholas/nlp-exploration/blob/master/4_HMMBasics.md)
 
 #### In progress
-- [Topic 5: The Viterbi Algorithm with HMM](https://github.com/nixxholas/nlp-exploration/blob/master/4_HMMBasics.md)
+- [Topic 5: Hidden Markov Model Parameter Estimation](https://github.com/nixxholas/nlp-exploration/blob/master/5_HMMParameter_Estimation.md)
+- [Topic 6: The Viterbi Algorithm with HMM](https://github.com/nixxholas/nlp-exploration/blob/master/6_ViterbiAlgo.md)

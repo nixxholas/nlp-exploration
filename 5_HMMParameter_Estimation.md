@@ -37,7 +37,6 @@ But before we're able to learn with hidden states, let's look through what learn
 ### Learning Parameters with The Baum-Welch Algorithm
 ##### a.k.a The Forward Backward Algorithm.
 
-
 **About The Baum-Welch Algorithm**
 - it is an Expectation-Maximization (EM) Algorithm.
 
@@ -59,6 +58,7 @@ First, we need to know the probability of the 'i' th symbol
 being produced by state k, given sequence x. Given this we can compute our expected counts for state transitions, character emissions. (Dewey, 2017)
 
 
+##### [Back to main](https://github.com/nixxholas/nlp-exploration/)
 
 ##### References
 Dewey, C. (2017). Hidden Markov Model Parameter Estimation. 1st ed. [ebook] Madison, Wisconsin, U.S: University Of Wisconsin-Madison. Available at: https://www.biostat.wisc.edu/bmi576/lectures/hmms-parameter-estimation.pdf [Accessed 20 Apr. 2017].

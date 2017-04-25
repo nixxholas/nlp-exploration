@@ -1,5 +1,10 @@
 ## Hidden Markov Models (HMM)
 
+### Before we move on, why HMM rather than the other options available?
+- [Comparisons with various POS tagging](http://dspace.bracu.ac.bd/jspui/bitstream/10361/83/1/Comparison%20of%20diffferent%20pos%20tagging%20techniques.pdf)
+
+The evidence provided above proves that HMM works with our use case as a viable replacement to support and understand multiple languages for further processing.
+
 So in the Hidden Markov Model (HMM), the previous chapter has explained that this is an iteration of a generative model. So first off, let us understand how a sentence is first processed in HMM.
 
 We have an input sentence,

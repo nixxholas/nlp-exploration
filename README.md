@@ -4,13 +4,14 @@
 
 ### Table Of Contents
 - [Topic 1: Basics Of Natural Language Processing in Instant Messaging Conversations](https://github.com/nixxholas/nlp-exploration/blob/master/1_Basics.md)
-- [Topic 2: The Tagging Problem](https://github.com/nixxholas/nlp-exploration/blob/master/2_TagProblem.md)
-- [Topic 3: Generative Models for Supervised Learning](https://github.com/nixxholas/nlp-exploration/blob/master/3_GenerativeModels.md) // **Needs Revision**
-- [Topic 4: Hidden Markov Model (HMM) Basics](https://github.com/nixxholas/nlp-exploration/blob/master/4_HMMBasics.md)
+- [Topic 2: Basics of Language Models](https://github.com/nixxholas/nlp-exploration/blob/master/2_BasicsOfLanguageModels.md)
+- [Topic 3: The Tagging Problem](https://github.com/nixxholas/nlp-exploration/blob/master/3_TagProblem.md)
+- [Topic 4: Generative Models for Supervised Learning](https://github.com/nixxholas/nlp-exploration/blob/master/4_GenerativeModels.md) // **Needs Revision**
+- [Topic 5: Hidden Markov Model (HMM) Basics](https://github.com/nixxholas/nlp-exploration/blob/master/5_HMMBasics.md)
 
 #### In progress
-- [Topic 5: Hidden Markov Model Parameter Estimation](https://github.com/nixxholas/nlp-exploration/blob/master/5_HMMParameter_Estimation.md)
-- [Topic 6: The Viterbi Algorithm with HMM](https://github.com/nixxholas/nlp-exploration/blob/master/6_ViterbiAlgo.md)
+- [Topic 6: Hidden Markov Model Parameter Estimation](https://github.com/nixxholas/nlp-exploration/blob/master/6_HMMParameter_Estimation.md)
+- [Topic 7: The Viterbi Algorithm with HMM](https://github.com/nixxholas/nlp-exploration/blob/master/7_ViterbiAlgo.md)
 
 #### Future Confirmed Bonus Topics
 - [Wit.AI - A free Natural Language Interface for apps and devices](wit.ai)

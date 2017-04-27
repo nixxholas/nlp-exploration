@@ -24,6 +24,8 @@ However, what we will be doing requires focusing on the key principles on NLU fi
 
 **First and foremost, NLU is more complex than NLG because of its nature of ambiguity (it is open to or having several possible meanings or interpretations; equivocal).**
 
+**NLU is an input of language into a computer while NLG is an output of language from a computer.**
+
 Hold up, I will explain to you about the underlying problem now.
 
 NLU has a core level of complexity and due to this nature, we have several levels of ambiguity.
@@ -60,7 +62,7 @@ For further understanding of each step, here's the [link](https://www.tutorialsp
 
 **So.. How do we implement NLP in Instant Messaging contexts? Let's learn what the solution solves first.**
 
-### [Next Chapter](https://github.com/nixxholas/nlp-exploration/blob/master/2_TagProblem.md)
+### [Next Chapter](https://github.com/nixxholas/nlp-exploration/blob/master/2_BasicsOfLanguageModels.md)
 
 ##### [Back to main](https://github.com/nixxholas/nlp-exploration/)
 

@@ -31,12 +31,25 @@ C (aka Count) is equal the number of times this word has appeared with the machi
 
 This is the resultant equation we will get.
 
+An example of a simple algorithm is a Naive method, which returns 0 if the data that we have does not match with the sentence given. ([Extra Video Tip](https://www.youtube.com/watch?v=M3uA0dSNI98&list=PLO9y7hOkmmSH7-p6que1MYbhBx74AzH7-&index=2))
+
 #### However, such an equation will result in weak probabilities when the counts are low.
 - Unknown words will often be ignored
 
 Thus, we have the **Likelihood** Probability to increase model accuracy.
 
 ![Likelihood equation](Images/2_LikelihoodEquation.png)
+
+**NOTE** ->  [What does ∏ mean?](https://math.stackexchange.com/questions/620187/what-does-the-prod-symbol-mea)
+
+-> ∈ means "an element of"
+
+##### Before the confusing part comes, we'll go through the fundamentals of what we want to achieve in these topics, the Hidden Markov Model. ([Adapted from StackExchange](https://stats.stackexchange.com/questions/2457/markov-process-about-only-depending-on-previous-state))
+#### You will have to google from this section all the way till the end. (Too many references to make, I will come back to this topic to add on when I'm done with school.)
+![Hidden Markov Chains](/Images/2_MarkovChains.png)
+
+To further aid you into understanding what a first order Markov Chain is, here is an example.
+
 
 - However, as the numbers calculated with likelihood are low, this may result in integer underflow. This can be resolved with **Log likelihood**.
 

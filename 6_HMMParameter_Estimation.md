@@ -5,6 +5,7 @@ parameters from a set of training examples (These examples are learned by the mo
 **In overall for this topic, we will be using estimation with the Hidden Markov Model for learning.**
 
 [Click here if you want to learn basic smoothing (Smoothed Estimation)](http://www.cs.jhu.edu/~jason/465/hw-hmm/hw-hmm.pdf)
+[Click here for a some sort complete report on all HMM estimation equations](http://courses.media.mit.edu/2010fall/mas622j/ProblemSets/ps4/tutorial.pdf)
 
 **The main reason why HMM's name was given is partially because:**
 

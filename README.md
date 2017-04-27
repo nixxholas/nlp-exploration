@@ -9,8 +9,12 @@
 - [Topic 4: Generative Models for Supervised Learning](https://github.com/nixxholas/nlp-exploration/blob/master/4_GenerativeModels.md) // **Needs Revision**
 - [Topic 5: Hidden Markov Model (HMM) Basics](https://github.com/nixxholas/nlp-exploration/blob/master/5_HMMBasics.md)
 - [Topic 6: Hidden Markov Model Parameter Estimation](https://github.com/nixxholas/nlp-exploration/blob/master/6_HMMParameter_Estimation.md)
+- [Topic 8: The Viterbi Algorithm with HMM](https://github.com/nixxholas/nlp-exploration/blob/master/8_CSharpHMM.md)
 
 #### In progress
+
+
+#### Realized Topic Redundancies
 - [Topic 7: The Viterbi Algorithm with HMM](https://github.com/nixxholas/nlp-exploration/blob/master/7_ViterbiAlgo.md)
 
 #### Future Confirmed Bonus Topics

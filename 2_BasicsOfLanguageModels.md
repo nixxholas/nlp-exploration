@@ -62,3 +62,4 @@ To further aid you into understanding what a first order Markov Chain is, here i
 
 ##### References
 - mean?, W. (2017). What does the $\prod$ symbol mean?. [online] Math.stackexchange.com. Available at: https://math.stackexchange.com/questions/620187/what-does-the-prod-symbol-mean [Accessed 27 Apr. 2017].
+- Anon, (2017). [online] Available at: https://webcourse.cs.technion.ac.il/236522/Spring2008/ho/WCFiles/class08-m8.pdf [Accessed 27 Apr. 2017].

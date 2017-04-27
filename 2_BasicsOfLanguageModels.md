@@ -46,6 +46,9 @@ Thus, we have the **Likelihood** Probability to increase model accuracy.
 
 ##### Before the confusing part comes, we'll go through the fundamentals of what we want to achieve in these topics, the Hidden Markov Model. ([Adapted from StackExchange](https://stats.stackexchange.com/questions/2457/markov-process-about-only-depending-on-previous-state))
 #### You will have to google from this section all the way till the end. (Too many references to make, I will come back to this topic to add on when I'm done with school.)
+
+[**Click here for extra Markov Chain Information**](https://webcourse.cs.technion.ac.il/236522/Spring2008/ho/WCFiles/class08-m8.pdf)
+
 ![Hidden Markov Chains](/Images/2_MarkovChains.png)
 
 To further aid you into understanding what a first order Markov Chain is, here is an example.
@@ -58,3 +61,4 @@ To further aid you into understanding what a first order Markov Chain is, here i
 - This way, a high level of accuracy can be obtained while maintaining high levels of data integrity.
 
 ##### References
+- mean?, W. (2017). What does the $\prod$ symbol mean?. [online] Math.stackexchange.com. Available at: https://math.stackexchange.com/questions/620187/what-does-the-prod-symbol-mean [Accessed 27 Apr. 2017].

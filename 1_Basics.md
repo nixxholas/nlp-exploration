@@ -62,6 +62,7 @@ For further understanding of each step, here's the [link](https://www.tutorialsp
 
 **So.. How do we implement NLP in Instant Messaging contexts? Let's learn what the solution solves first.**
 
+#### Remember to pickup Probability and understand the advanced symbols of Probability before continuing to topic 2.
 ### [Next Chapter](https://github.com/nixxholas/nlp-exploration/blob/master/2_BasicsOfLanguageModels.md)
 
 ##### [Back to main](https://github.com/nixxholas/nlp-exploration/)

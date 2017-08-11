@@ -58,6 +58,7 @@ Formula:
 First, we need to know the probability of the 'i' th symbol
 being produced by state k, given sequence x. Given this we can compute our expected counts for state transitions, character emissions. (Dewey, 2017)
 
+### [Next Chapter](https://github.com/nixxholas/nlp-exploration/blob/master/BONUS4_CSharpHMM.md)
 
 ##### [Back to main](https://github.com/nixxholas/nlp-exploration/)
 

@@ -1,52 +1,45 @@
-## Hidden Markov Models (HMM)
+## Expressions
 
-### Before we move on, why HMM rather than the other options available?
-- [Comparisons with various POS tagging](http://dspace.bracu.ac.bd/jspui/bitstream/10361/83/1/Comparison%20of%20diffferent%20pos%20tagging%20techniques.pdf)
+### What are expressions?
 
-The evidence provided above proves that HMM works with our use case as a viable replacement to support and understand multiple languages for further processing.
+Expressions can be in the form of a few cases:
+- Time expressions, where a phrase is being converted into a computational time format, be it a specific time or a range-based time set.
+- Named entities, where words such as Coke can be named/categorized as a drink
+- There is more cases where you'll be able to see online but we will only be going through the two as stated above.
 
-So in the Hidden Markov Model (HMM), the previous chapter has explained that this is an iteration of a generative model. So first off, let us understand how a sentence is first processed in HMM.
+##### Sample
+Date of sentence: 1 Aug 2017
 
 We have an input sentence,
-> Dory is a fish
+> What do I have tomorrow?
 
-Which will then have a tag sequence.
-> Dory /JJ is /NN a /NN fish /NJ
+Which will then have a time expressions
+> What do I have **tomorrow**?
 
-**Note that these tags are random.. and is just a fake tag for this example.**
+**The word "tomorrow" will be recognized by a time expression algorithm which would then be able to convert it into a computationally readable format:**
 
-Thus from Topic 3, we have pull part of the formula's logic here.
+#### 1 Aug 2017 00:00 - 1 Aug 2017 23:59
 
-Let the input sentence be x and the tag sequence be y.
+This data retrieved is now able to be processed by any code.
 
-Therefore, x and y will be,
-> x = (Dory (x1), is (x2), a (x3), fish (x4))
+Now the question is, how does it work?
 
-> y = (JJ (y1), NN (y2), NN (y3), NJ (y4))
+**Due to the complexity of the algorithm developed, the github source code is linked below, which will then require you to do a step debug in order to learn the process of time expression recognition.**
 
-Which allows us to carry out the calculation of the probability of this HMM
-instance into:
+The algorithm/engine that has been developed is segregated into the following sections:
+- Tagging (To tag and ignore words that are not relevant to a time expression within the current context)
+- Handlers (Converts tokenized words into its relevant time expression)
+- Scanners (To scan for contexts, i.e. Timezones etc.)
+- General processors such as a Numerizer, Tokenizer, Normalizer
+- Registry
 
-> arg max p(x1, ...., xn, y1, ...., yn)
+### The process
+1. Sentence retrieval (The sentence is retrieved by the parser engine)
+2. Tokenization (The sentence is simplified from a short conversation format to a grammatically corrected format)
+3. Scanning (Scans the entire sentence and tags it with the proper computational number)
+4. Handling (Handlers will convert the tokenized sentence into time if there is any)
+5. Done!
 
-
-### Trigram Hidden Markov Models (Trigram HMMs)
-The simplest form of explanation for the core understand of Trigram HMMs have to
-be watched here. [![Video Link](http://i3.ytimg.com/vi/98TARXun1xA/hqdefault.jpg)](https://youtu.be/98TARXun1xA?list=PLO9y7hOkmmSGSJA8S3gTigcyNDVJ31LLt&t=150)
-
-After understanding what a Trigram HMM is, the input sentence and tag sequence has changed.
-
-Input sentence, **(SAME)**
-> Dory is a fish
-
-Tag sequence.
-> Dory /JJ is /NN a /NN fish /NJ /STOP
-
-Notice that STOP has been added in a Trigram HMM to mark the end of a sentence. To convert a sentence given into the formula, it will look like:
-
-Following the video's sample sentence, 'the dog laughs', we will have
-> p(x1, ...., xn, y1, ...., yn) = q(D|*,*) x q(N|*,D) x q(V|D, N) x q(STOP|N,V) x e(the|D) x e(dog|N) x e(laughs|V)
-
-Notice the D, N, V and STOP are tag sequences. (For the HMM example we gave earlier above, we have JJ, NN, NN and NJ and STOP)
+#### [Time expression repository]()
 
 ##### [Back to main](https://github.com/nixxholas/nlp-exploration/)

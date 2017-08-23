@@ -12,8 +12,17 @@ sequence is the associated symbol (i.e. \NN).
 > Thus, the function will take in a sentence and tags the input/s with
 the tag sequence.
 
-To simplify the process for creating a Part Of Speech tagger engine, we will segregate it into a few segments:
+To simplify the process for creating a Part Of Speech tagger engine, we will segregate it into two segments:
 - Corpus (This is simply known as a dictionary)
+- Tag Processing Object (An object instantiated to process words, phrases or sentences by including a tag with each word.)
+
+These two elements will create the core foundation of a Part of speech tagging engine, which can be expanded into greater uses such as:
+- Word filtration
+- Grammar checking or rather, linguistic correction
+
+The github source code link below is an example of a simple part of speech engine that has been developed. This engine is able to recognize over 90000 characters/words within the English dictionary and uses the Brills English Corpus to recognize, identify and process data.
+
+#### [View the source code here]()
 
 ### [Next Chapter](https://github.com/nixxholas/nlp-exploration/blob/master/5_Expressions.md)
 

@@ -40,6 +40,6 @@ The algorithm/engine that has been developed is segregated into the following se
 4. Handling (Handlers will convert the tokenized sentence into time if there is any)
 5. Done!
 
-#### [Time expression repository]()
+#### [Time expression repository](https://github.com/nixxholas/nlp-timexpression)
 
 ##### [Back to main](https://github.com/nixxholas/nlp-exploration/)

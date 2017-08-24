@@ -22,7 +22,7 @@ These two elements will create the core foundation of a Part of speech tagging e
 
 The github source code link below is an example of a simple part of speech engine that has been developed. This engine is able to recognize over 90000 characters/words within the English dictionary and uses the Brills English Corpus to recognize, identify and process data.
 
-#### [View the source code here]()
+#### [View the source code here](https://github.com/nixxholas/nlp-postagging)
 
 ### [Next Chapter](https://github.com/nixxholas/nlp-exploration/blob/master/5_Expressions.md)
 
